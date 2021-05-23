@@ -1,0 +1,23 @@
+{
+  "name": "pemudatersesat-ti3-pw2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rizalaldian27/pemudatersesat-ti3-pw2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rizalaldian27/pemudatersesat-ti3-pw2021/issues"
+  },
+  "homepage": "https://gitlab.com/rizalaldian27/pemudatersesat-ti3-pw2021#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0"
+  }
+}
