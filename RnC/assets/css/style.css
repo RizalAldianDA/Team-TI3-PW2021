@@ -468,3 +468,26 @@ ul.isi-dropdown{
     text-align: center;
 
 }
+
+/*search box*/
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;   
+    background:rgb(255, 253, 253);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #ff9933;
+    background-color:#ff9933;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
