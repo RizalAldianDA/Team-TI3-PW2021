@@ -105,6 +105,7 @@ body {
     margin-right: auto;
 }
 
+
 /*Effect Home*/
 .other1{
     background-color: #333333;
@@ -297,6 +298,11 @@ a.pure-button-primary {
     color: #333333;
 }
 
+.tengah{
+    padding-left: 30%;
+    padding-right: 10%;
+    
+}
 
 
 /*
