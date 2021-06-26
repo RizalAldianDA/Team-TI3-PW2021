@@ -60,7 +60,7 @@ body {
 .navbar-brand{
     padding-left: 50px;
 }
-.recipe-content{
+.pure-g.recipe-content.pure-u-sm-1-1{
     margin-left: auto;
     margin-right: auto;
 }
@@ -123,6 +123,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 .text-contact-inside{
     font-family: agency fb;
