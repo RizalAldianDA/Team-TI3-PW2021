@@ -9,6 +9,7 @@
  * Most of these are inherited from Base, but I want to change a few.
  */
 body {
+    width: 100%;
     background-color: #333333;
     color: #ff9933 !important;
     font-size: 13px;
