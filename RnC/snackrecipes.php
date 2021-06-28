@@ -1,3 +1,8 @@
+<?php
+    include "koneksi.php";
+    $qmenu_snack = "select * from menu WHERE recipes_id = '3'";
+    $data_menu_snack = $conn->query($qmenu_snack);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,25 +71,30 @@
 <div class="album py-5 bg-light"> 
 <div class="container"> 
         <h1 class="jumbotron-heading content-head is-center" id="title-page">Recipes</h1> 
-        <div class="row bg-light"> 
+        <div class="row bg-light">
+        <?php
+            foreach($data_menu_snack as $index => $value){
+        ?> 
             <div class="col-md-4"> 
                 <div class="card mb-4 box-shadow bg-dark"> 
-                    <img class="card-img-top"  onclick="window.location.href='seblak.html'" src="assets/images/seblak.jpg" alt="Card image cap"> 
+                    <img class="card-img-top" src="uploads/<?php echo $value['foto']?>" alt="Card image cap"> 
                     <div class="card-body" >
                         <h3 class="content-subhead " >
-                            <a href="seblak.html" style="color: #ff9933;">Seblak</a>
+                            <a href="content.php?menu_id=<?php echo $value['menu_id'] ?>" style="color: #ff9933;"><?php echo $value['nama'] ?></a>
                         </h3>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><?php echo $value['keterangan'] ?></p>
                         <div class="d-flex justify-content-between align-items-center"> 
                             <div class="btn-group"> 
                             
-                            <button type="button" onclick="window.location.href='seblak.html'" class="btn btn-sm btn-outline-secondary"  >View</button> 
+                            <a href="content.php?menu_id=<?php echo $value['menu_id'] ?>" type="button" class="btn btn-sm btn-outline-secondary"  >View</a> 
                             </div> 
-                            <small class="text-muted">9 mins</small> 
                         </div> 
                     </div> 
                 </div> 
             </div> 
+            <?php
+             }
+            ?>
         </div> 
     </div> 
 </div>

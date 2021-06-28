@@ -18,7 +18,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"href="index.html"><img width="70" src="assets/images/logo2.png"></a>
+        <a class="navbar-brand"href="index.php"><img width="70" src="assets/images/logo2.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#ff9933 ">
             <span class="navbar-toggler-icon"style="visibility: hidden" ></span><img style="width: 30px" src="assets/images/menu.png">
         </button>

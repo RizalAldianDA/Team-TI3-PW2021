@@ -1,7 +1,6 @@
 {
   "name": "pemudatersesat-ti3-pw2021",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +16,10 @@
   },
   "homepage": "https://gitlab.com/rizalaldian27/pemudatersesat-ti3-pw2021#readme",
   "dependencies": {
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.0.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.6.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
