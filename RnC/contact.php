@@ -1,79 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes And Cooks</title>
-    <link rel="icon" href="assets/images/logo2.png">
+	<title>About</title>
+	<link rel="icon" href="assets/images/logo2.png">
+	<link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/css/all.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/base-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
-    
 </head>
 <body>
-
-
-<nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"href="index.html"><img width="70" src="assets/images/logo2.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#ff9933 ">
-            <span class="navbar-toggler-icon"style="visibility: hidden" ></span><img style="width: 30px" src="assets/images/menu.png">
-        </button>
+	<nav class="navbar navbar-expand-lg navbar-light">
+  		<a class="navbar-brand"href="index.php"><img width="70" src="assets/images/logo2.png"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#ff9933">
+  			<span class="navbar-toggler-icon"style="visibility: hidden" ></span><img style="width: 30px" src="assets/images/menu.png">
+  		</button>
         <div class="collapse navbar-collapse"  id="navbarNav" style="padding-left: 70%">
-            <ul class="navbar-nav" >
-                <li class="nav-item active">
-                    <a class="nav-link" style="color: #ff9933" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="dropdown nav-item ">
+            <ul class="navbar-nav">
+              	<li class="nav-item">
+                	<a class="nav-link" style="color: #cccccc" href="index.php">Home </a>
+              	</li>
+              	<li class="dropdown nav-item ">
                     <a class="nav-link" style="color: #cccccc" href="#">Recipes</a>
                     <ul class="isi-dropdown">
-                        <li><a href="foodrecipes.html">Foods</a></li>
-                        <li><a href="snackrecipes.html">Snacks</a></li>
-                        <li><a href="drinkrecipes.html">Drinks</a></li>
+                        <li><a href="foodrecipes.php">Foods</a></li>
+                        <li><a href="snackrecipes.php">Snacks</a></li>
+                        <li><a href="drinkrecipes.php">Drinks</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #cccccc" href="about.html">About</a>
+              	<li class="nav-item">
+                    <a class="nav-link" style="color: #cccccc" href="about.php">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #cccccc" href="contact.html">Contact</a>
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: #ff9933" href="contact.php">Contact<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
-</nav>
-<div class="other1"></div>
-<div class="row align-items-center mx-auto" >
-
-    <div class="col-4 col-lg-5 order-2">
-        <img width="200" class="pure-img-responsive" src="assets/images/logo2.png">
-        <form>
-            <input class="search" type="text" placeholder="Cari..." required>	
-            <input class="button" type="button" value="Cari">	
-        </form>
-    </div>
-
-          
-</div>
-
-<div class="recipe">
-        <h2 class="content-head is-center">Recipes</h2>
-        <br>
-        <br>
-        <br>
+	</nav>
+<div class="contact-us">
+        <img src="assets/images/logo2.png" class="img-contact" >
+        <h2 class="content-head is-center">OUR CONTACTS</h2>
         <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-                <div class="recipe-content ">
-                    <img width="400" alt="File Icons" class="pure-img-responsive" src="assets/images/seblak.jpg">
-                <h3 class="content-subhead">
-                    <a href="seblak.html">Seblak</a>
-                </h3>
-            </div> 
-           
+            <div class="l-box pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1-3">
+                <img class="img-contact-inside" src="assets/images/facebook.png">
+                <h2 class="text-contact-inside">Facebook</h2>
+                <h2 class="text-contact-inside">Recipes and Cooks</h2>
+            </div>
+            <div class="l-box pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1-3">
+                <img class="img-contact-inside" src="assets/images/instagram.png">
+                <h2 class="text-contact-inside">Instagram</h2>
+                <h2 class="text-contact-inside">@RecipesandCooks</h2>
+            </div>
+            <div class="l-box pure-u-1 pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1-3">
+                <img class="img-contact-inside" src="assets/images/twitter.png">
+                <h2 class="text-contact-inside">Twitter</h2>
+                <h2 class="text-contact-inside">@RandC</h2>
+            </div>
         </div>
 </div>
+<div class="other"></div> 
 <div class="content-bottom">
         <!--<h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>-->
 
@@ -95,8 +84,8 @@
            <div class="l-box-lrg pure-u-1 pure-u-lg-1-5 pure-u-md-1-4 pure-u-sm-1-4">
                <h5 class="title_bottom">Overview</h5>
                <ul class="link_bottom" >
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <li><a href="#">Term of Use</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
@@ -146,7 +135,6 @@
             </div>
         </div>
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
