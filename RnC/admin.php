@@ -5,6 +5,8 @@
   $data_menu = $conn->query($qmenu);  
   $qrecipes = "select * from recipes";
   $data_recipes = $conn->query($qrecipes);  
+  $qnamamenu = "SELECT * FROM recipes INNER JOIN menu ON recipes.recipes_id = menu.recipes_id";
+  $nama_menu = $conn->query($qnamamenu)
 ?>
 <html lang="en">
   <head>
@@ -64,7 +66,7 @@
             <span class="text-muted">Data recipes</span>
           </h4>
           <?php
-              foreach($data_menu as $index => $value){
+              foreach($nama_menu as $index => $value){
           ?>
             <ul class="list-group mb-3">
               <li class="list-group-item d-flex justify-content-between lh-condensed">
