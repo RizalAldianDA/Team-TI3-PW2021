@@ -21,9 +21,9 @@
     <link href="bootstrap-4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="assets/images/logo2.png">
-    <link href="assets/css/all.css" rel="stylesheet"> 
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">

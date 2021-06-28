@@ -25,10 +25,10 @@
         <div class="collapse navbar-collapse "  id="navbarNav" style="padding-left: 70%">
             <ul class="navbar-nav" >
                 <li class="nav-item active">
-                    <a class="nav-link" style="color: #ff9933" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color: #ff9933" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="dropdown nav-item ">
-                    <a class="nav-link" style="color: #cccccc" href="recipes.php">Recipes</a>
+                    <a class="nav-link" style="color: #cccccc" href="#">Recipes</a>
                     <ul class="isi-dropdown">
                         <li><a href="foodrecipes.php">Foods</a></li>
                         <li><a href="snackrecipes.php">Snacks</a></li>
