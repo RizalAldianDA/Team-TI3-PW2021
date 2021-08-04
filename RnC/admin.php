@@ -53,6 +53,20 @@
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand"href="admin.php"><img width="70" src="assets/images/logo2.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#ff9933 ">
+            <span class="navbar-toggler-icon"style="visibility: hidden" ></span><img style="width: 30px" src="assets/images/menu.png">
+        </button>
+        <div class="collapse navbar-collapse "  id="navbarNav" style="padding-left: 80%">
+            <ul class="navbar-nav" >
+                
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #cccccc" href="logout.php" data-toggle="modal" 
+                        data-target="#myModal">Logout</a>
+            </ul>
+        </div>
+</nav>
   <body class="bg-light">
     <div class="container">
       <div class="py-5 text-center">

@@ -474,3 +474,8 @@ form {
       flex: 100%;
     }
   }
+
+  .modal-header{
+      background-color: #333333;
+  }
+

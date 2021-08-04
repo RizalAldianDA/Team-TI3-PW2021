@@ -46,6 +46,10 @@
                 <li class="nav-item">
                     <a class="nav-link" style="color: #cccccc" href="contact.php">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #cccccc" href="#" data-toggle="modal" 
+                        data-target="#myModal">Admin</a>
+                </li>
             </ul>
         </div>
 </nav>
@@ -54,15 +58,6 @@
 
     <div class="container">
         <img class="img-contact" src="assets/images/logo2.png">
-        
-        <form>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Cari..." name= "Search" required>
-                
-                <input class="button" type="button" value="Cari">
-            </div>
-            	
-        </form>
     </div>
           
 </div>
@@ -170,6 +165,37 @@
         </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog" style="background-clolor: #333333;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" method="post" action="ceklogin.php">
+            <div class="form-group" method="post">
+              <label for="username"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" name="username" id="password" placeholder="Enter username">
+            </div>
+            <div class="form-group" method="post">
+              <label for="password"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
+            </div>
+              <button type="submit" id="submit" nama="submit" class="btn btn-primary btn-block" method="post"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>     
+            
+        </div>
+      </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
